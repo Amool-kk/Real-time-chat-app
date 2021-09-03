@@ -1,0 +1,95 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: lightblue;
+    min-height: 100vh;
+    /* background: #F8F8F8; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+.nav{
+    border-bottom: 1px solid black;
+}
+.hadding{
+    display: flex;
+    flex-direction: row;
+}
+.hadding img{
+    width: 50px;
+    margin: 5px 5px;
+}
+.hadding h1{
+    position: absolute;
+    right: 5px;
+    top: 18px;
+}
+section{
+    height: 700px;
+    /* border: 1px solid green; */
+    overflow-y: auto;
+}
+.message-area{
+    /* border: 1px solid red; */
+    height: 500px;
+    margin-top: 16px;
+}
+.mbox{
+    background-color: white;
+    /* width: 15%; */
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 26px 4px 4px 4px;
+    text-align: left;
+    position: relative;
+}
+.mbox h4{
+    position: absolute;
+    top: -26px;
+    left: 0px;
+}
+.left{
+    float: left;
+    clear: both;
+    border-radius: 0px 6px 0px 6px;
+}
+.center{
+    text-align: center;
+    /* border: 1px solid black; */
+    clear:both;
+    margin: 0px;
+}
+.right{
+    float: right;
+    clear: both;
+    border-radius: 6px 0px 6px 0px;
+}
+article{
+    margin-top: 20px;
+
+}
+.typearea{
+    height: 7%;
+    text-align: center;
+}
+#textarea {
+    width: 84%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #FBFBFB;
+}
+#btn{
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 6px 0px 6px 0px;
+    cursor: pointer;
+    outline: none;
+}
+#btn:hover{
+    background-color: lightgreen;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js -e js,hbs",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.6",
+    "socket.io": "^3.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amool-kk/chatingApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Amool-kk/chatingApp/issues"
+  },
+  "homepage": "https://github.com/Amool-kk/chatingApp#readme",
+  "description": ""
+}
